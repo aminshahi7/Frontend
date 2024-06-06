@@ -1,0 +1,14 @@
+.bestaetigungDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+}
+input{
+    width: 35%;
+}
+
+h1{
+    font-size: 80%;
+}

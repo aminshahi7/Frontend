@@ -1,0 +1,689 @@
+.willkommenDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.willkommenHeader{
+    font-size: 80px;
+    font-family: myfont;
+    color: rgba(167,187,173,0.78);
+}
+
+.willkommenPrgrf{
+    display: flex;
+    justify-content: center;
+}
+.prgrf1{
+    text-align: center;
+    margin: 10px;
+    font-family: myfont;
+    font-size: 230%;
+}
+.prgrf2{
+    text-align: center;
+    margin: 10px;
+    font-family: myfont;
+    font-size: 230%;
+    align-items: center;
+}
+.ubuntuDiv{
+    display: flex;
+    justify-content: center;
+}
+.ubuntuImg{
+    max-width: 60%;
+    height: auto;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+.btn1{
+    background-color: rgba(0, 0, 0, 0.68);
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 45px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 5%;
+}
+.btn2{
+    background-color: rgba(0, 0, 0, 0.68);
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 45px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 5%;
+}
+.fotos1{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.foto1{
+    display: block;
+    width: 940.1px;
+    height: 510.3px;
+    border-radius: 20px;
+    margin: 0.9%;
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 940.1px;
+    height: 510.3px;
+    background-color: #a6baac;
+    border-radius: 20px;
+    margin: 0.3%;
+}
+.firstFoto{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.fotos2{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.foto2{
+    display: block;
+    width: 940.1px;
+    height: 510.3px;
+    border-radius: 20px;
+    margin: 0.3%;
+}
+.text2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 940.1px;
+    height: 510.3px;
+    background-color: #a6baac;
+    border-radius: 20px;
+    margin: 0.3%;
+}
+.secondFoto{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.fotos3{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.foto3{
+    display: block;
+    width: 940.1px;
+    height: 510.3px;
+    border-radius: 20px;
+    margin: 0.3%;
+}
+.text3{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 940.1px;
+    height: 510.3px;
+    background-color: #a6baac;
+    border-radius: 20px;
+    margin: 0.3%;
+}
+.thirdFoto{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.fotos4{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.foto4{
+    display: block;
+    width: 940.1px;
+    height: 510.3px;
+    border-radius: 20px;
+    margin: 0.3%;
+}
+.text4{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 940.1px;
+    height: 510.3px;
+    background-color: #a6baac;
+    border-radius: 20px;
+    margin: 0.3%;
+}
+.forthFoto{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.firstHeader{
+    font-family: myfont;
+}
+.firstText{
+    font-size: 25px;
+    font-family: myfont;
+}
+.secondText{
+    font-family: myfont;
+    font-size: 25px;
+}
+.thirdText{
+    font-size: 25px;
+    font-family: myfont;
+}
+.secondHeader{
+    font-family: myfont;
+    text-align: center;
+}
+.forthText{
+    font-size: 25px;
+    font-family: myfont;
+}
+
+@media screen and (max-width: 1000px){
+    .firstHeader{
+        font-size: 25px;
+    }
+    .firstText{
+        font-size: 20px;
+    }
+    .secondHeader{
+        font-size: 25px;
+    }
+    .secondText{
+        font-size: 20px;
+    }
+    .thirdText{
+        font-size: 20px;
+    }
+    .forthText{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 800px){
+    .firstHeader{
+        font-size: 20px;
+    }
+    .firstText{
+        font-size: 15px;
+    }
+    .secondHeader{
+        font-size: 20px;
+    }
+    .secondText{
+        font-size: 15px;
+    }
+    .thirdText{
+        font-size: 15px;
+    }
+    .forthText{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .firstHeader{
+        font-size: 15px;
+    }
+    .firstText{
+        font-size: 10px;
+    }
+    .secondHeader{
+        font-size: 15px;
+    }
+    .secondText{
+        font-size: 10px;
+    }
+    .thirdText{
+        font-size: 10px;
+    }
+    .forthText{
+        font-size: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 1000px){
+    .foto1{
+        width: 752.08px;
+        height: 408.24px;
+    }
+    .text1{
+        width: 752.08px;
+        height: 408.24px;
+    }
+    .foto2{
+        width: 752.08px;
+        height: 408.24px;
+    }
+    .text2{
+        width: 752.08px;
+        height: 408.24px;
+    }
+    .foto3{
+        width: 752.08px;
+        height: 408.24px;
+    }
+    .text3{
+        width: 752.08px;
+        height: 408.24px;
+    }
+    .foto4{
+        width: 752.08px;
+        height: 408.24px;
+    }
+    .text4{
+        width: 752.08px;
+        height: 408.24px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .foto1{
+        width: 601.664px;
+        height: 326.592px;
+    }
+    .text1{
+        width: 601.664px;
+        height: 326.592px;
+    }
+    .foto2{
+        width: 601.664px;
+        height: 326.592px;
+    }
+    .text2{
+        width: 601.664px;
+        height: 326.592px;
+    }
+    .foto3{
+        width: 601.664px;
+        height: 326.592px;
+    }
+    .text3{
+        width: 601.664px;
+        height: 326.592px;
+    }
+    .foto4{
+        width: 601.664px;
+        height: 326.592px;
+    }
+    .text4{
+        width: 601.664px;
+        height: 326.592px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .foto1{
+        width: 488.5312px;
+        height: 261.2736px;
+    }
+    .text1{
+        width: 488.5312px;
+        height: 261.2736px;
+    }
+    .foto2{
+        width: 488.5312px;
+        height: 261.2736px;
+    }
+    .text2{
+        width: 488.5312px;
+        height: 261.2736px;
+    }
+    .foto3{
+        width: 488.5312px;
+        height: 261.2736px;
+    }
+    .text3{
+        width: 488.5312px;
+        height: 261.2736px;
+    }
+    .foto4{
+        width: 488.5312px;
+        height: 261.2736px;
+    }
+    .text4{
+        width: 488.5312px;
+        height: 261.2736px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .foto1{
+        width: 341.97184px;
+        height: 182.89152px;
+    }
+    .text1{
+        width: 341.97184px;
+        height: 182.89152px;
+    }
+    .foto2{
+        width: 341.97184px;
+        height: 182.89152px;
+    }
+    .text2{
+        width: 341.97184px;
+        height: 182.89152px;
+    }
+    .foto3{
+        width: 341.97184px;
+        height: 182.89152px;
+    }
+    .text3{
+        width: 341.97184px;
+        height: 182.89152px;
+    }
+    .foto4{
+        width: 341.97184px;
+        height: 182.89152px;
+    }
+    .text4{
+        width: 341.97184px;
+        height: 182.89152px;
+    }
+}
+
+
+
+@media screen and (max-width: 1900px){
+    .fotos1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .fotos2{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .fotos3{
+        flex-direction: column;
+        align-items: center;
+    }
+    .fotos4{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 1700px){
+    .btn2{
+        background-color: rgba(0, 0, 0, 0.68);
+        color: white;
+        border: none;
+        padding: 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 35px;
+        cursor: pointer;
+        border-radius: 8px;
+        margin-top: 5%;
+    }
+    .btn1{
+        background-color: rgba(0, 0, 0, 0.68);
+        color: white;
+        border: none;
+        padding: 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 35px;
+        cursor: pointer;
+        border-radius: 8px;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .btn2{
+        background-color: rgba(0, 0, 0, 0.68);
+        color: white;
+        border: none;
+        padding: 12px 26px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 25px;
+        cursor: pointer;
+        border-radius: 8px;
+        margin-top: 5%;
+    }
+    .btn1{
+        background-color: rgba(0, 0, 0, 0.68);
+        color: white;
+        border: none;
+        padding: 12px 26px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 25px;
+        cursor: pointer;
+        border-radius: 8px;
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 800px){
+    .btn2{
+        background-color: rgba(0, 0, 0, 0.68);
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 8px;
+        margin-top: 5%;
+    }
+    .btn1{
+        background-color: rgba(0, 0, 0, 0.68);
+        color: white;
+        border: none;
+        padding: 12px 26px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 8px;
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 600px){
+    .btn2{
+        background-color: rgba(0, 0, 0, 0.68);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 8px;
+        margin-top: 5%;
+    }
+    .btn1{
+        background-color: rgba(0, 0, 0, 0.68);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 8px;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 510px){
+    .btn2{
+        background-color: rgba(0, 0, 0, 0.68);
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        cursor: pointer;
+        border-radius: 8px;
+        margin-top: 5%;
+    }
+    .btn1{
+        background-color: rgba(0, 0, 0, 0.68);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        cursor: pointer;
+        border-radius: 8px;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 2500px){
+    .ubuntuImg{
+        max-width: 70%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .ubuntuImg{
+        max-width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 1500px){
+    .willkommenHeader{
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .willkommenHeader{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .willkommenHeader{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 500px){
+    .willkommenHeader{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 2500px){
+    .prgrf1{
+        margin: 10px;
+        font-family: myfont;
+        font-size: 180%;
+    }
+    .prgrf2{
+        margin: 10px;
+        font-family: myfont;
+        font-size: 180%;
+    }
+}
+@media screen and (max-width: 2500px){
+    .prgrf1{
+        margin: 10px;
+        font-family: myfont;
+        font-size: 140%;
+    }
+    .prgrf2{
+        margin: 10px;
+        font-family: myfont;
+        font-size: 140%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .willkommenPrgrf{
+        display: grid;
+        justify-content: center;
+    }
+    .prgrf1{
+        margin: 10px;
+        font-family: myfont;
+        font-size: 200%;
+    }
+    .prgrf2{
+        margin: 10px;
+        font-family: myfont;
+        font-size: 200%;
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 800px){
+    .prgrf1{
+        margin: 10px;
+        font-family: myfont;
+        font-size: 160%;
+    }
+    .prgrf2{
+        margin: 10px;
+        font-family: myfont;
+        font-size: 160%;
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 800px){
+    .prgrf1{
+        margin: 10px;
+        font-family: myfont;
+        font-size: 100%;
+    }
+    .prgrf2{
+        margin: 10px;
+        font-family: myfont;
+        font-size: 100%;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .prgrf1{
+        margin: 10px;
+        font-family: myfont;
+        font-size: 80%;
+    }
+    .prgrf2{
+        margin: 10px;
+        font-family: myfont;
+        font-size: 80%;
+        margin-top: 5%;
+    }
+}
+@font-face {
+    font-family: "myfont";
+    src: url(font.ttf) format('woff2');
+}

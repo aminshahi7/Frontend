@@ -1,0 +1,18 @@
+.kalender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange{
+    background-color: #daafac;
+}
+button{
+    padding: 1% 2%;
+    font-size: 100%;
+    cursor: pointer;
+    background-color: #a6baac; /* Blau */
+    color: #6c6c6c;
+    border: none;
+    border-radius: 10px;
+}

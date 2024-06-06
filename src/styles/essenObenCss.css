@@ -1,0 +1,55 @@
+
+.ganzkomponent{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.essen1{
+    max-width: 60%;
+    height: auto;
+}
+
+.next1{
+    max-width: 3%;
+    height: 3%;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+.next2{
+    max-width: 3%;
+    height: 3%;
+    margin-top: 15%;
+    margin-right: 5%;
+}
+
+
+@media screen and (max-width: 1700px){
+
+}
+
+@media screen and (max-width: 1500px){
+    .essen1{
+        max-width: 75%;
+        height: auto;
+    }
+
+    .next1{
+        max-width: 4%;
+        height: 3%;
+        margin-top: 19%;
+        margin-left: 4%;
+    }
+
+    .next2{
+        max-width: 4%;
+        height: 3%;
+        margin-top: 19%;
+        margin-right: 4%;
+    }
+
+}
+
+
+

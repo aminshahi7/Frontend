@@ -1,0 +1,8 @@
+.buttonsDiv{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin: 1%;
+}
