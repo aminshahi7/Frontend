@@ -1,5 +1,5 @@
 {
-  "name": "untitled",
+  "name": "Frontend",
   "version": "0.1.0",
   "private": true,
   "proxy": "https://backeend-7tee.onrender.com",
@@ -19,6 +19,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
   },
   "eslintConfig": {
     "extends": [
