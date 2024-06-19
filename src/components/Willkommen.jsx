@@ -50,7 +50,7 @@ function willkommen(){
 
 
             <div className="ubuntuDiv">
-                <img src={Ubuntu} className="ubuntuImg"/>
+                <img alt="dd" src={Ubuntu} className="ubuntuImg"/>
             </div>
 
             <div className="willkommenDiv">
@@ -87,7 +87,7 @@ function willkommen(){
 
             <div className="fotos1">
                 <div className="foto1">
-                    <img src={Sand} className="firstFoto"/>
+                    <img alt="dd" src={Sand} className="firstFoto"/>
                 </div>
                 <div className="text1">
                     <h1 className="firstHeader">Barfuß in Afrika!</h1>
@@ -111,14 +111,14 @@ function willkommen(){
                     </p>
                 </div>
                 <div className="foto2">
-                    <img src={Leute} className="secondFoto"/>
+                    <img alt="dd" src={Leute} className="secondFoto"/>
                 </div>
 
             </div>
 
             <div className="fotos3">
                 <div className="foto3">
-                    <img src={Resto} className="thirdFoto"/>
+                    <img alt="dd" src={Resto} className="thirdFoto"/>
                 </div>
                 <div className="text3">
                     <p className="thirdText">
@@ -145,7 +145,7 @@ function willkommen(){
                     </p>
                 </div>
                 <div className="foto4">
-                    <img src={Eingang} className="forthFoto"/>
+                    <img alt="dd" src={Eingang} className="forthFoto"/>
                 </div>
 
             </div>

@@ -25,14 +25,14 @@ function Header() {
     return (
         <>
             <div className="nav">
-                <img className="logo" src={Logo} />
+                <img alt="dd" className="logo" src={Logo} />
                 <ul>
                     <a href=""><li className="navElement">RESTAURANT</li></a>
                     <a href=""><li>RESERVIERUNG</li></a>
                     <a href=""><li>SPEISEKARTE</li></a>
                     <a href=""><li className="sp">SHOP</li></a>
                 </ul>
-                <img onClick={sidebar} className="menu" src={Menu} />
+                <img alt="dd" onClick={sidebar} className="menu" src={Menu} />
             </div>
 
             <div className="navplus" style={{height: height }}>

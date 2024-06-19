@@ -60,11 +60,11 @@ function EssenOben(){
         <>
             <div className="ganzkomponent">
 
-                    <img src={Next2} className="next2" onClick={lastImg}/>
+                    <img alt="dd" src={Next2} className="next2" onClick={lastImg}/>
 
-                    <img src={image[count]} className="essen1" />
+                    <img alt="dd" src={image[count]} className="essen1" />
 
-                    <img src={Next1} className="next1" onClick={nextImg}/>
+                    <img alt="dd" src={Next1} className="next1" onClick={nextImg}/>
 
             </div>
         </>

@@ -9,8 +9,8 @@ function Footer(){
             <div className="footer">
 
                 <div className="footerOben">
-                    <img src={Imherzen} className="imherzen"/>
-                    <img src={Insta} className="insta"/>
+                    <img alt="dd" src={Imherzen} className="imherzen"/>
+                    <img alt="dd" src={Insta} className="insta"/>
                 </div>
 
                 <div className="linie"></div>
