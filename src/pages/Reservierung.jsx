@@ -25,7 +25,7 @@ function Reservierung() {
         setPerson({...person, tischnummer: e.target.value});
     }
     const sendData = async ()=>{
-        const data = await fetch("/person/data", {
+        const data = await fetch("https://backeend-7tee.onrender.com/person/data", {
             method: "POST",
             headers:{
                 "Content-Type" : "application/json"
