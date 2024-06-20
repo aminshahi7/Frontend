@@ -2,7 +2,7 @@
   "name": "Frontend",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://backeend-18s.onrender.com",
+  "proxy": "https://backeend-jcf7.onrender.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
