@@ -3,11 +3,14 @@ import Header from "../components/Header"
 import {useState, useEffect} from "react"
 import BestaetigungCss from "../styles/bestaetigungCss.css"
 import Footer from "../components/Footer"
+import {useNavigate} from "react-router-dom"
 
 
 
 
 function Bestaetigung(){
+
+    let history = useNavigate();
 
     const [code, setCode] = useState("");
     const [number, setNummber] = useState(null);
@@ -16,7 +19,7 @@ function Bestaetigung(){
     
     useEffect(()=>{
         if (send === 1){
-            window.location.href= "/home"
+            history("/home")
         }
     })
 

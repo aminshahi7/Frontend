@@ -2,7 +2,10 @@ import { useState, useEffect} from "react";
 import Header from "../components/Header"
 import reservierungCss from "../styles/reservierungCss.css"
 import Footer from "../components/Footer"
+import { useNavigate } from 'react-router-dom';
 function Reservierung() {
+
+    let history = useNavigate();
 
     const [person, setPerson] = useState({fname: "", lname: "", email: "", telefon: "", tischnummer: ""});
 
@@ -35,7 +38,7 @@ function Reservierung() {
         e.preventDefault();
         sendData();
         console.log("sendet")
-        window.location.href="/bestaetigung"
+        history('/bestaetigung');
     }
 
 
