@@ -8,12 +8,12 @@ function App(){
     return(
 
             <Routes>
-                <Route path="/" element={<Home/>}/>
-                <Route path="/home" element={<Home/>}/>
-                <Route path="/reservierung" element={<Reservierung/>}/>
-                <Route path="/bestellung" element={<Bestellung/>}/>
-                <Route path="/bestaetigung" element={<Bestaetigung/>}/>
-                <Route path="/admin" element={<Admin/>} />
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/home" element={<Home/>}/>
+                    <Route path="/reservierung" element={<Reservierung/>}/>
+                    <Route path="/bestellung" element={<Bestellung/>}/>
+                    <Route path="/bestaetigung" element={<Bestaetigung/>}/>
+                    <Route path="/admin" element={<Admin/>} />
             </Routes>
     );
 }

@@ -4,15 +4,15 @@ import Sand from "../images/sand.png"
 import Leute from "../images/leute.png"
 import Eingang from "../images/eingang.png"
 import Resto from "../images/resto.png"
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 function Willkommen(){
 
-    let history = useHistory();
+    let history = useNavigate();
 
     const reservierung = () => {
-        history.push('/reservierung');
+        history('/reservierung');
     };
     function bestellung(){
        window.location.href = "/bestellung"
