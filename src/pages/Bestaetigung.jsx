@@ -31,7 +31,7 @@ function Bestaetigung(){
     )
 
     const resiveData = async ()=>{
-        const response = await fetch("https://backeend-7tee.onrender.com/person/data");
+        const response = await fetch("/person/data");
         const data = await response.json();
         await setNummber(data);
     }
@@ -43,7 +43,7 @@ function Bestaetigung(){
     }
 
     const sendData = async ()=>{
-        const data = await fetch("https://backeend-7tee.onrender.com/person/data", {
+        const data = await fetch("/person/data", {
             method: "POST",
             headers:{
                 "Content-Type" : "text/plain"
