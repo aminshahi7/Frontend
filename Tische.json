@@ -1,0 +1,42 @@
+{
+  "Tisch40": {
+    "Jahr2024": {
+      "Janur": {
+        "reserviert" : false
+      },
+      "Februar": {
+        "reserviert" : false
+      },
+      "Maerz": {
+        "reserviert" : false
+      },
+      "April": {
+        "reserviert" : false
+      },
+      "Mai": {
+        "reserviert" : false
+      },
+      "Juni": {
+        "reserviert" : false
+      },
+      "Juli": {
+        "reserviert" : false
+      },
+      "August": {
+        "reserviert" : false
+      },
+      "September": {
+        "reserviert" : false
+      },
+      "Oktober": {
+        "reserviert" : false
+      },
+      "November": {
+        "reserviert" : false
+      },
+      "Dezember": {
+        "reserviert" : false
+      }
+    }
+  }
+}

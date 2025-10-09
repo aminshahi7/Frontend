@@ -1,0 +1,98 @@
+body{
+    font-family: myfont;
+    background-color: rgba(175, 133, 217, 0.33);
+}
+
+.body{
+    width: 40%;
+    margin: auto;
+}
+
+.willH{
+    text-align: center;
+    color: #a2b6a8;
+}
+
+.text1Div{
+    display: flex;
+    justify-content: center;
+}
+
+.btnRsrvDiv{
+    display: flex;
+    justify-content: center;
+}
+.btnRsrv{
+    background-color: #db9b57;
+}
+
+.ubuntuPostcard{
+    width: 90%;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.ubuntuDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.text1{
+    text-align: center;
+    font-size: 130%;
+}
+
+.text2{
+    text-align: center;
+    font-size: 130%;
+}
+
+.willH2{
+    text-align: center;
+    color: #db9b57;
+}
+
+.zebraDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.zebra{
+    width: 90%;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.CarouselP{
+    color: black;
+    background-color: rgba(162, 182, 168, 0.77);
+    border-radius: 20px;
+    padding: 3%;
+}
+
+.CarouselHead{
+    background-color: rgba(219, 155, 87, 0.81);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 992px){
+    .body{
+        width: 100%;
+    }
+    .text1Div{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    .CarouselHead{
+        font-size: 15px;
+    }
+    .CarouselP{
+        color: black;
+        font-size: 8px;
+        background-color: rgba(162, 182, 168, 0.77);
+        border-radius: 20px;
+        padding: 3%;
+    }
+}

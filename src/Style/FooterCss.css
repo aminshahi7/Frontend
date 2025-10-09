@@ -1,0 +1,142 @@
+h1{
+    font-family: myfont;
+    text-align: center;
+}
+p{
+    font-family: myfont;
+    text-align: center;
+}
+
+
+.footer{
+    background-color: #db9b57;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.footerOben{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imherzen{
+    width: 20%;
+    height: auto;
+    margin-right: 20%;
+    margin-top: 1%;
+}
+
+.insta{
+    width: 2%;
+    height: 2%;
+    margin-right: 12%;
+    margin-top: 1%;
+}
+
+.linie{
+    background-color: black;
+    width: 100%;
+    height: 2px;
+    margin-top: 1%;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+}
+.div11{
+    margin-right: 8%;
+    align-items: center;
+}
+.div12{
+    margin-right: 10%;
+}
+
+
+@media screen and (max-width: 1800px){
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 1400px){
+    h1{
+        font-size: 22px;
+    }
+    p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 1000px){
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    h1{
+        font-size: 18px;
+    }
+    p{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 725px){
+    h1{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 610px){
+    h1{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 400px){
+    h1{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 1800px){
+    .imherzen{
+        width: 25%;
+    }
+    .insta{
+        width: 4%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .imherzen{
+        width: 30%;
+    }
+    .insta{
+        width: 6%;
+    }
+}
+@media screen and (max-width: 825px){
+    .imherzen{
+        width: 35%;
+    }
+    .insta{
+        width: 8%;
+    }
+}
+@media screen and (max-width: 520px){
+    .imherzen{
+        width: 40%;
+    }
+    .insta{
+        width: 10%;
+    }
+}

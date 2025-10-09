@@ -1,0 +1,115 @@
+.hauptDiv{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    display: none;
+}
+
+.obenBackground{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/ObenLoginFoto.png");
+}
+
+.obenBackground2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/ObenLoginFoto.png");
+    transition: filter 8s ease;
+    filter: blur(7.5px);
+}
+
+.loginDiv{
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+.loginDiv2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+}
+
+.loginDatei1{
+    display: flex;
+    width: 400px;
+    height: 500px;
+    background-color: #a2b6a8;
+    margin: 2%;
+    justify-content: center;
+    transition: 1s;
+    border-radius: 25px;
+}
+.loginDatei2{
+    display: flex;
+    width: 400px;
+    height: 500px;
+    background-color: #a2b6a8;
+    margin: 2%;
+    justify-content: center;
+    transition: 1s;
+    border-radius: 25px;
+}
+.loginDatei3{
+    display: flex;
+    width: 400px;
+    height: 500px;
+    background-color: #a2b6a8;
+    margin: 2%;
+    justify-content: center;
+    transition: 1s;
+    border-radius: 25px;
+}
+
+.loginDatei1:hover{
+    height: 600px;
+    width: 600px;
+    transition: 1s;
+    border-radius: 25px;
+}
+.loginDatei2:hover{
+    height: 600px;
+    width: 600px;
+    transition: 1s;
+    border-radius: 25px;
+}
+
+.loginDatei3:hover{
+    height: 600px;
+    width: 600px;
+    transition: 1s;
+    border-radius: 25px;
+}
+
+.btnBestellen{
+    border: 2px solid;;
+    background-color: #db9b57;
+    border: none;
+}
+
+
+h3{
+    font-family: myfont;
+}
+
+.essenBestellen{
+    width: 70%;
+}
+
+.tischReservieren{
+    width: 92%;
+    border-radius: 15px;
+}

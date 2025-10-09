@@ -1,0 +1,70 @@
+.Div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.mitteDiv1Active{
+    display: flex;
+    justify-content: center;
+    background-color: #a1b5a7;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+}
+
+.mitteDiv2Active{
+    display: flex;
+    justify-content: center;
+    background-color: #a1b5a7;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+}
+
+
+
+.next2Div{
+    display: flex;
+    justify-content: center;
+}
+.next1Div{
+    display: flex;
+    justify-content: center;
+}
+
+
+.tischReservieren{
+    width: auto;
+    height: 43%;
+}
+
+.tischBestellen{
+    width: auto;
+    height: 55%;
+}
+
+.next2{
+    width: 20%;
+}
+
+.next1{
+    width: 20%;
+}
+
+
+
+
+
+
+@media screen and (min-width: 992px){
+    .Div{
+        display: none;
+    }
+}

@@ -1,0 +1,50 @@
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #a2b6a8;
+    display: flex;
+}
+
+.Logo{
+    width: auto;
+    height: 50%;
+    margin-left: 4%;
+}
+
+.LogoMenu{
+    width: auto;
+    height: 70%;
+    margin-right: 6%;
+}
+
+.Menu{
+    display: flex;
+    background-color: #a2b6a8;
+}
+
+.items{
+    font-family: myfont;
+    text-decoration: none;
+    color: #000000;
+}
+
+.items:hover{
+    color: #db9b57;
+}
+
+.postcardFoto{
+    max-width: 100%;
+}
+
+
+@media screen and (min-width: 992px){
+    .header{
+        display: none;
+    }
+    .Menu{
+        display: none;
+    }
+    .postcardDiv{
+        display: none;
+    }
+}

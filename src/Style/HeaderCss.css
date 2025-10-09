@@ -1,0 +1,37 @@
+.divHaupt{
+    background-color: #a2b6a8;
+    display: none;
+}
+
+.divFoto{
+    margin-left: 3%;
+}
+.navH{
+    font-family: myfont;
+    font-size: 120%;
+    transition-duration: 0.5s;
+}
+.divNavH{
+    margin-right: 2%;
+}
+.imgLogo{
+    width: auto;
+    height: 70px;
+}
+.aTag{
+    text-decoration: none;
+    color: black;
+    align-self: center;
+}
+.li{
+  cursor: pointer;
+}
+.li:hover{
+    color: #db9b57;
+    transition-duration: 0.5s;
+}
+
+@font-face {
+    font-family: "myfont";
+    src: url(font.ttf) format('woff2');
+}
