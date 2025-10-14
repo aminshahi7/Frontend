@@ -9,8 +9,19 @@ import Footer from "../component/Footer"
 import { format } from "date-fns";
 
 const App = ()=>{
+
+    
     const [selectedDate, setSelectedDate] = useState(null);
     const [hilfe, setHilfe] = useState(0);
+    const [nachricht, setNachricht] = useState('');
+
+    useEffect(() => {
+    fetch('http://localhost:3000/api/message') // URL anpassen je nach Deployment
+      .then((res) => res.json())
+      .then((data) => setNachricht(data.message))
+      .catch((err) => console.error('Fehler beim Abrufen:', err));
+  }, []);
+    
 
     const disabledDate = (date) => {
 
@@ -26,6 +37,8 @@ const App = ()=>{
             console.log("yes");
         }
     }
+
+    
 
     return(
         <div>
@@ -43,7 +56,14 @@ const App = ()=>{
             />
             </div>
 
+            <div>
+                <h1>Nachricht vom Backend:</h1>
+                <p>{nachricht}</p>
+            </div>
+
             <Footer/>
+
+
 
 
         </div>
