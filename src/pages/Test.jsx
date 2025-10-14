@@ -16,7 +16,7 @@ const App = ()=>{
     const [nachricht, setNachricht] = useState('');
 
     useEffect(() => {
-    fetch('http://localhost:3000/api/message') // URL anpassen je nach Deployment
+    fetch('https://backend-kkg7.onrender.com/test') // URL anpassen je nach Deployment
       .then((res) => res.json())
       .then((data) => setNachricht(data.message))
       .catch((err) => console.error('Fehler beim Abrufen:', err));
