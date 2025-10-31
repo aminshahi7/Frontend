@@ -1,0 +1,15 @@
+.HauptDiv{
+    display: inline-block;
+    margin: 3%;
+}
+.Header{
+    font-family: myfont;
+    margin: 3%;
+}
+.PfeileDiv{
+    text-align: center;
+}
+.Pfeile{
+    width: 2%;
+}
+

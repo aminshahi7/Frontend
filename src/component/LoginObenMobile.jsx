@@ -8,9 +8,15 @@ import Terasse from "../images/Terasse.png"
 import Resto from "../images/Resto.png"
 import Bar from "../images/Bar.png"
 import Soundanlage from "../images/Soundanlage.png"
+import Bestellung from "../pages/Bestellung";
+
 function LoginObenMobile(){
 
-    const [count, setCount] = useState(1)
+    const [count, setCount] = useState(1);
+
+    const goToBestellung = ()=>{
+        window.location.href = "./bestellung";
+    }
 
     const next2F = ()=>{
         if (count === 1){
@@ -41,7 +47,7 @@ function LoginObenMobile(){
             <div className={`mitteDiv2Active  flex-column ${count === 1 ? 'd-flex ' : 'd-none'}`}>
                 <h5 className="mb-4">Essen Bestellen</h5>
                 <img className="tischBestellen" src={Essen} alt=""/>
-                <button className="btnBestellen btn mt-4">jetzt Bestellen</button>
+                <button onClick={goToBestellung} className="btnBestellen btn mt-4">jetzt Bestellen</button>
             </div>
             <div className="next1Div">
                 <img className="next1" src={next1} alt="flash" onClick={next1F}/>

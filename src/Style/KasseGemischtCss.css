@@ -1,0 +1,35 @@
+.imgDiv{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.Platte{
+    width: 40%;
+    max-width: 400px;
+    margin: 2%;
+    border-radius: 10%;
+}
+
+.HeaderH1{
+    font-family: myfont;
+    margin: 1%;
+    color: rgb(61, 61, 61);
+}
+.CheckBoxDiv{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.CheckBoxDiv2{
+    width: 70%;
+}
+.CheckBoxDiv input{
+    margin-right: 10px;
+}
+.CheckBoxDiv span{
+    margin-left: 10px;
+    font-size: 80%;
+}
+

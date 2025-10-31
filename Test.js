@@ -11,21 +11,22 @@ const Datum = Object.keys(data.Jahr2025.Januar.Tisch11);
 const Uhr = Object.keys(data.Jahr2025.Januar.Tisch11["01.01.2025"]);
 
 
+for(var b = 0; b < Tische.length; b++){
 
-for(var a = 1; a < Datum.length; a++){
+  for(var a = 1; a < Datum.length; a++){
 
     for(var i = 0; i < 3; i++){
-      if(data.Jahr2025.Januar.Tisch11[Datum[a]][Uhr[i]].reserviert == true){
+      if(data.Jahr2025.Januar[Tische[b]][Datum[a]][Uhr[i]].reserviert == true){
         Hilfe = Hilfe + 1;
       }
     }
-
   }
+}
   
 
 
 
-console.log(Hilfe)
+console.log(Hilfe);
 
 
 

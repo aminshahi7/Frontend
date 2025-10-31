@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(255, 255, 255);
+
+}
+
+.HauptDiv{
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 2px;
+    margin-top: 10px;
+    padding: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.Header{
+    font-family: myfont;
+}
+
+.food{
+    width: 100%;
+    border-radius: 5px;
+
+}
+.Button{
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    width: 90%;
+    padding: 19px 24px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.ButtonDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Button:hover{
+    width: 100%;
+    transition: 0.5s;
+}

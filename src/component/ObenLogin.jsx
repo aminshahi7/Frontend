@@ -10,10 +10,13 @@ function ObenLogin(){
         const timer = setTimeout(()=>{
             setIsBlurred(true);
         },500);
-
         return ()=> clearTimeout(timer)
 
     }, []);
+
+     const goToBestellung = ()=>{
+        window.location.href = "./bestellung";
+    }
 
     return(
         <div  className={"hauptDiv d-lg-flex"}>
@@ -31,7 +34,7 @@ function ObenLogin(){
                 <div className="loginDatei3 flex-column align-items-center justify-content-center">
                     <h4 className="mb-5">Gemischte Platte</h4>
                     <img className="essenBestellen mb-5" src={essenBestellen} alt="Essen Bestellen"/>
-                    <button className="btnBestellen btn">jetzt Bestellen</button>
+                    <button onClick={goToBestellung} className="btnBestellen btn">jetzt Bestellen</button>
                 </div>
             </div>
         </div>
