@@ -21,9 +21,13 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    align-items: center;
 }
 .CheckBoxDiv2{
-    width: 70%;
+    display: flex;
+    width: 60%;
+    margin-left: 35%;
+    padding: 0;
 }
 .CheckBoxDiv input{
     margin-right: 10px;
@@ -31,5 +35,6 @@
 .CheckBoxDiv span{
     margin-left: 10px;
     font-size: 80%;
+    max-width: 50%;
 }
 
