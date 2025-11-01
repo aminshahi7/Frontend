@@ -5,6 +5,8 @@ import KasseGemischtCss from "../Style/KasseGemischtCss.css";
 import Korb0 from "../images/Korb0.png"
 import Korb1 from "../images/Korb1.png"
 import gemischtePlatte from "../images/gemischtePlatte.png"
+import HeaderMobile from "../component/HeaderMobile"
+import untenPfeile from "../images/untenPfeile.png"
 
 function KasseGemischt(probs){
     const [hilfe, setHilfe] = useState(0);
@@ -15,11 +17,18 @@ function KasseGemischt(probs){
         
         <div>
             <Header/>
+            <HeaderMobile/>
             <div>
                 <h1 className={"HeaderH1"}>Gemischte Platte</h1>
             </div>
             <div className={"imgDiv"}>
                 <img className={"Platte"} src={gemischtePlatte} alt="Platte" />
+            </div>
+            <div>
+                <h2 className={"HeaderH2"}>4 Suaßen Auswählen</h2>
+            </div>
+            <div className={"PfeileDiv"}>
+                <img src={untenPfeile} alt="Pfeile" className={"Pfeile"} />
             </div>
             <div className={"CheckBoxDiv"}>
                 <div className={"CheckBoxDiv2"}>
